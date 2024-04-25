@@ -1,0 +1,11 @@
+@Api
+public class UserApi{
+
+    @Autowired
+    private UserService service;
+
+    @GetMapping("/create")
+    ResponseEntity<String> createUser(UserDto userInfo) {
+
+    }
+}

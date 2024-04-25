@@ -1,0 +1,9 @@
+
+public interface UserService{
+
+    /**
+     * parameter
+     * return
+     */
+    String createUser(USerDTO userInfo);
+}
